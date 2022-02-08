@@ -9,42 +9,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/uswds.min.js"></script>
-    <script src="https://code.highcharts.com/highcharts.src.js"></script>
-    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-        const chart = Highcharts.chart('container', {
+    <style>
+    .usa-pagination__button {
+      color: #264A64 !important;
+    }
 
-        accessibility: {
-        description: 'Participant votes by preference for Version A, Version B, or each having merit. The votes totals were 2 for Version A, 8 for Version B, and 3 for each having merits'
-                       },
-            chart: {
-                type: 'bar'
-            },
-            legend:{ enabled:false },
-            credits: {
-  enabled: false
-},
 
-            title: {
-                text: 'Participant votes'
-            },
-            xAxis: {
-                categories: ['Version A', 'Version B', 'Each have merits']
-
-            },
-            yAxis: {
-                title: {
-                    text: 'Participant votes'
-                }
-            },
-            series: [{
-                name: 'Votes',
-                data: [2, 8, 3]
-            }]
-        });
-    });
-  </script>
+    </style>
   </head>
   <body>
 
@@ -85,7 +56,7 @@
 <section style="max-width: 1400px; margin: 100px;">
   <div class="usa-table-container--scrollable" tabindex="0">
   <table class="usa-table usa-table--striped">
-      <caption>
+      <caption style="font-size: 1.438rem;">
         Section 1 - Active Case Data
       </caption>
 
@@ -113,7 +84,7 @@
           <th rowspan="3" scope="rowgroup">01/02/2022 at 12:00 AM</th>
           <th rowspan="3" scope="rowgroup">Horace Slughorn</th>
           <th rowspan="3" scope="rowgroup"><a href="">ADS.ET2JFP1.TS58<a></th>
-          <th rowspan="3" scope="rowgroup"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/2048px-Eo_circle_green_checkmark.svg.png" style="width: 15px; height: 15px; margin-right: 5px;">Accepted with Errors</th>
+          <th rowspan="3" scope="rowgroup"><img src="./img/alerts/error.svg" style="width: 20px; height: 20px; position: relative; top: 4px; margin-right: 5px;">Accepted with errors</th>
           <th scope="row">January</th>
           <td>250</td>
           <td>0</td>
@@ -136,10 +107,10 @@
         </tr>
 
         <tr>
-          <th rowspan="3" scope="rowgroup">01/02/2022 at 12:00 AM</th>
+          <th rowspan="3" scope="rowgroup">12/22/2021 at 12:00 AM</th>
           <th rowspan="3" scope="rowgroup">Horace Slughorn</th>
           <th rowspan="3" scope="rowgroup"><a href="">ADS.ET2JFP1.TS58<a></th>
-          <th rowspan="3" scope="rowgroup"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/2048px-Eo_circle_green_checkmark.svg.png" style="width: 15px; height: 15px; margin-right: 5px;">Accepted with Errors</th>
+            <th rowspan="3" scope="rowgroup"><img src="./img/alerts/error.svg" style="width: 20px; height: 20px; position: relative; top: 4px; margin-right: 5px;">Accepted with errors</th>
           <th scope="row">January</th>
           <td>250</td>
           <td>0</td>
@@ -162,10 +133,62 @@
         </tr>
 
         <tr>
-          <th rowspan="3" scope="rowgroup">01/02/2022 at 12:00 AM</th>
+          <th rowspan="3" scope="rowgroup">11/14/2021 at 12:00 AM</th>
           <th rowspan="3" scope="rowgroup">Remus Lupin</th>
           <th rowspan="3" scope="rowgroup"><a href="">ADS.ET2JFP1.TS58<a></th>
-          <th rowspan="3" scope="rowgroup"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/2048px-Eo_circle_green_checkmark.svg.png" style="width: 15px; height: 15px; margin-right: 5px;">Accepted with Errors</th>
+            <th rowspan="3" scope="rowgroup"><img src="./img/alerts/error.svg" style="width: 20px; height: 20px; position: relative; top: 4px; margin-right: 5px;">Accepted with errors</th>
+          <th scope="row">January</th>
+          <td>250</td>
+          <td>0</td>
+          <td>250</td>
+          <th rowspan="3" scope="rowgroup"><a href="">View Error Report for ADS.ET2JFP1.TS58</a></th>
+
+        </tr>
+        <tr>
+          <th scope="row" style="background-color: ">February</th>
+          <td>246</td>
+          <td>4</td>
+          <td>250</td>
+
+        </tr>
+        <tr>
+          <th scope="row">March</th>
+          <td>250</td>
+          <td>0</td>
+          <td>250</td>
+        </tr>
+
+        <tr>
+          <th rowspan="3" scope="rowgroup">11/14/2021 at 12:00 AM</th>
+          <th rowspan="3" scope="rowgroup">Remus Lupin</th>
+          <th rowspan="3" scope="rowgroup"><a href="">ADS.ET2JFP1.TS58<a></th>
+            <th rowspan="3" scope="rowgroup"><img src="./img/alerts/error.svg" style="width: 20px; height: 20px; position: relative; top: 4px; margin-right: 5px;">Accepted with errors</th>
+          <th scope="row">January</th>
+          <td>250</td>
+          <td>0</td>
+          <td>250</td>
+          <th rowspan="3" scope="rowgroup"><a href="">View Error Report for ADS.ET2JFP1.TS58</a></th>
+
+        </tr>
+        <tr>
+          <th scope="row" style="background-color: ">February</th>
+          <td>246</td>
+          <td>4</td>
+          <td>250</td>
+
+        </tr>
+        <tr>
+          <th scope="row">March</th>
+          <td>250</td>
+          <td>0</td>
+          <td>250</td>
+        </tr>
+
+        <tr>
+          <th rowspan="3" scope="rowgroup">11/14/2021 at 12:00 AM</th>
+          <th rowspan="3" scope="rowgroup">Remus Lupin</th>
+          <th rowspan="3" scope="rowgroup"><a href="">ADS.ET2JFP1.TS58<a></th>
+            <th rowspan="3" scope="rowgroup"><img src="./img/alerts/error.svg" style="width: 20px; height: 20px; position: relative; top: 4px; margin-right: 5px;">Accepted with errors</th>
           <th scope="row">January</th>
           <td>250</td>
           <td>0</td>
@@ -192,6 +215,194 @@
 
     </table>
 </div>
+<nav aria-label="Pagination" class="usa-pagination"  style="color: #264A64 !important;">
+  <ul class="usa-pagination__list"  style="color: #264A64 !important;">
+    <li class="usa-pagination__item usa-pagination__arrow"  style="color: #264A64 !important;">
+      <a
+        href="javascript:void(0);"
+        class="usa-pagination__link usa-pagination__previous-page"
+        aria-label="Previous page"
+      >
+        <svg class="usa-icon" aria-hidden="true" role="img">
+          <use xlink:href="/assets/img/sprite.svg#navigate_before"></use>
+        </svg>
+
+        <span class="usa-pagination__link-text"> Previous </span>
+      </a>
+    </li>
+
+    <li class="usa-pagination__item usa-pagination__page-no">
+      <a
+        href="javascript:void(0);"
+        class="usa-pagination__button"
+        aria-label="Page 1"
+      >
+        1
+      </a>
+    </li>
+
+    <li
+      class="usa-pagination__item usa-pagination__overflow"
+      role="presentation"
+    >
+      <span> … </span>
+    </li>
+
+    <li class="usa-pagination__item usa-pagination__page-no">
+      <a
+        href="javascript:void(0);"
+        class="usa-pagination__button"
+        aria-label="Page 9"
+      >
+        9
+      </a>
+    </li>
+
+    <li class="usa-pagination__item usa-pagination__page-no">
+      <a
+        href="javascript:void(0);"
+        class="usa-pagination__button usa-current"
+        aria-label="Page 10"
+        aria-current="page"
+        style="background-color: #264A64; color: white !important;"
+      >
+        10
+      </a>
+    </li>
+
+    <li class="usa-pagination__item usa-pagination__page-no">
+      <a
+        href="javascript:void(0);"
+        class="usa-pagination__button"
+        aria-label="Page 11"
+      >
+        11
+      </a>
+    </li>
+
+    <li
+      class="usa-pagination__item usa-pagination__overflow"
+      role="presentation"
+    >
+      <span> … </span>
+    </li>
+
+    <li class="usa-pagination__item usa-pagination__page-no">
+      <a
+        href="javascript:void(0);"
+        class="usa-pagination__button"
+        aria-label="Last page, page 24"
+      >
+        24
+      </a>
+    </li>
+
+    <li class="usa-pagination__item usa-pagination__arrow">
+      <a
+        href="javascript:void(0);"
+        class="usa-pagination__link usa-pagination__next-page"
+        aria-label="Next page"
+      >
+        <span class="usa-pagination__link-text"> Next </span>
+
+        <svg class="usa-icon" aria-hidden="true" role="img">
+          <use xlink:href="/assets/img/sprite.svg#navigate_next"></use>
+        </svg>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<div class="usa-table-container--scrollable" tabindex="0" style="margin-top: 100px;">
+<table class="usa-table usa-table--striped">
+    <caption style="font-size: 1.438rem;">
+      Section 3 - Aggregate Case Data
+    </caption>
+
+    <thead>
+      <tr>
+        <th scope="col" rowspan="2" >Submitted On</th>
+        <th scope="col" rowspan="2" >Submitted By</th>
+        <th scope="col" rowspan="2" >File Name</th>
+        <th scope="col" rowspan="2"  >Acceptance Status</th>
+        <th scope="col"rowspan="2"  >Month</th>
+        <th scope="col" rowspan="2" >Total Errors</th>
+        <th scope="col" rowspan="2" >Error Report</th>
+
+      </tr>
+
+
+
+    </thead>
+    <tbody>
+      <tr>
+        <th rowspan="3" scope="rowgroup">01/02/2022 at 12:00 AM</th>
+        <th rowspan="3" scope="rowgroup">Horace Slughorn</th>
+        <th rowspan="3" scope="rowgroup"><a href="">ADS.ET2JFP1.TS58<a></th>
+          <th rowspan="3" scope="rowgroup"><img src="./img/alerts/success.svg" style="width: 20px; height: 20px; position: relative; top: 4px; margin-right: 5px;">Accepted</th>
+        <th scope="row">January</th>
+        <td>0</td>
+        <th rowspan="3" scope="rowgroup"><a href="">View Error Report for ADS.ET2JFP1.TS58</a></th>
+
+      </tr>
+      <tr>
+        <th scope="row"  >February</th>
+        <td>0</td>
+
+      </tr>
+      <tr>
+        <th scope="row">March</th>
+        <td>0</td>
+      </tr>
+
+      <tr>
+        <th rowspan="3" scope="rowgroup">12/22/2021 at 12:00 AM</th>
+        <th rowspan="3" scope="rowgroup">Horace Slughorn</th>
+        <th rowspan="3" scope="rowgroup"><a href="">ADS.ET2JFP1.TS58<a></th>
+          <th rowspan="3" scope="rowgroup"><img src="./img/alerts/success.svg" style="width: 20px; height: 20px; position: relative; top: 4px; margin-right: 5px;">Accepted</th>
+        <th scope="row">January</th>
+        <td>0</td>
+        <th rowspan="3" scope="rowgroup"><a href="">View Error Report for ADS.ET2JFP1.TS58</a></th>
+
+      </tr>
+      <tr>
+        <th scope="row" style="background-color: #f0f0f0 !important">February</th>
+        <td>0</td>
+
+      </tr>
+      <tr>
+        <th scope="row">March</th>
+        <td>0</td>
+      </tr>
+
+      <tr>
+        <th rowspan="3" scope="rowgroup">11/14/2021 at 12:00 AM</th>
+        <th rowspan="3" scope="rowgroup">Remus Lupin</th>
+        <th rowspan="3" scope="rowgroup"><a href="">ADS.ET2JFP1.TS58<a></th>
+          <th rowspan="3" scope="rowgroup"><img src="./img/alerts/success.svg" style="width: 20px; height: 20px; position: relative; top: 4px; margin-right: 5px;">Accepted </th>
+        <th scope="row">January</th>
+        <td>0</td>
+        <th rowspan="3" scope="rowgroup"><a href="">View Error Report for ADS.ET2JFP1.TS58</a></th>
+
+      </tr>
+      <tr>
+        <th scope="row" style="background-color: ">February</th>
+        <td>0</td>
+
+      </tr>
+      <tr>
+        <th scope="row">March</th>
+        <td>0</td>
+      </tr>
+
+
+
+
+    </tbody>
+
+  </table>
+</div>
+
 </section>
       </main>
     </div>
