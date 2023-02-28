@@ -3,19 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Transmission Report - Error Report</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uswds/3.3.0/js/uswds.min.js" />
+    <title>TANF Data Portal Project Updates - Janaury 2023</title>
+    <link rel="stylesheet" href="css/uswds3.css" />
     <link rel="icon" type="image/x-icon" href="img/favicons/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="js/uswds.min.js"></script>
-    <style>
-    .usa-pagination__button {
-      color: #264A64 !important;
-    }
+    <link href="dist/lity.css" rel="stylesheet">
+    <script src="dist/lity.js"></script>
 
 
-    </style>
   </head>
   <body>
 
@@ -35,6 +32,9 @@
   <main id="main-top">
 <section style="max-width: 1400px; margin: 100px;">
 
+  <h1>TANF Data Error Report<h1>
+    <p style="text-black margin-bottom-5">For file name ADS.ET2.JFP1.TS58</p>
+
   <button type="submit" class="usa-button">
 <a style="text-decoration: none;color: inherit;" onclick="this.href='data:text/html;charset=UTF-8,'+encodeURIComponent(document.documentElement.outerHTML)" href="#" download="page.html">Download Report</a>
   </button>
@@ -43,16 +43,15 @@
   <div class="usa-table-container--scrollable" tabindex="0">
   <table class="usa-table usa-table--striped">
       <caption style="font-size: 1.438rem;">
-        Section 1 - Active Case Data
+        Error Report — Section 1 - Active Case Data
       </caption>
 
       <thead>
         <tr>
-          <th scope="col" rowspan="2" >Error Name</th>
           <th scope="col" rowspan="2" >Case Number</th>
-          <th scope="col" rowspan="2" >Reporting Year</th>
-          <th scope="col" rowspan="2"  >Reporting Month</th>
-          <th scope="col"rowspan="2"  >Description</th>
+          <th scope="col" rowspan="2" >Month</th>
+          <th scope="col" rowspan="2" >Error Typer</th>
+          <th scope="col" rowspan="2"  >Error Description</th>
           <th scope="col" rowspan="2">Instructions</th>
 
 
@@ -63,14 +62,15 @@
       </thead>
       <tbody>
         <tr>
-          <th rowspan="3" scope="rowgroup">01/02/2022 at 12:00 AM</th>
-          <th rowspan="3" scope="rowgroup">Horace Slughorn</th>
-          <th rowspan="3" scope="rowgroup"><a href="">ADS.ET2JFP1.TS58<a></th>
-          <th rowspan="3" scope="rowgroup"><img src="./img/alerts/error.svg" style="width: 20px; height: 20px; position: relative; top: 4px; margin-right: 5px;">Accepted with errors</th>
-          <th scope="row">January</th>
-          <th rowspan="3" scope="rowgroup"><a href="./instructions.html#item-7">View Instructions</a></th>
-
+          <th rowspan="3" scope="rowgroup">00000001111</th>
+          <th rowspan="3" scope="rowgroup">January</th>
+          <th rowspan="3" scope="rowgroup">Record Value Invalid</th>
+          <th rowspan="3" scope="rowgroup">Zipcode Must Be Numeric</th>
+          <th rowspan="3" scope="rowgroup">  <button type="submit" class="usa-button">
+          <a style="text-decoration: none;color: inherit;" href="instructions.html">View Instructions</a>
+            </button></th>
         </tr>
+
 
 
       </tbody>
