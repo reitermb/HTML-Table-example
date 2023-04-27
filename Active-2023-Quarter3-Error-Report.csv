@@ -1,4 +1,4 @@
 Case Number,Reporting Month,Item Number,Field Name,Error Message,Error Type
 111111111,January,7,Zipcode,Item 7 (Zip Code) Must be Numeric,Record Value Invalid
 222222222,January,30,Family Affiliation ,"If Item 48 (Work Participation Status) = 99 Or Blank, Item 30 (Family Affiliation - Adult) Must = 2-5",Case Consistency
-333333333,February,74,Exemption from Federal Time-Limit Provisions,Item 28 Must = 01-11,Record Value Invalid
+333333333,February,28,Exemption from Federal Time-Limit Provisions,Item 28 Must = 01-11,Record Value Invalid
