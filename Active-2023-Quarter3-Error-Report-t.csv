@@ -1,4 +1,4 @@
-Case Number,Reporting Month,Item Number,Field Name,Error Message,Error Type
-111111111,January,7,Zipcode,Item 7 (Zip Code) Must be Numeric,Record Value Invalid
-222222222,January,30,Family Affiliation ,"If Item 48 (Work Participation Status) = 99 Or Blank, Item 30 (Family Affiliation - Adult) Must = 2-5",Case Consistency
-333333333,February,74,Education Level,"If Item 66 (Family Affiliation Child) = 1 Then Item 74 (Education Level) Must = 01-16,98",Record Value Consistency
+Case Number,Reporting Month,Error Message,Item Numbers,Field Name,Error Type
+111111111,April,Item 7 (Zip Code) Must be Numeric,7,Zipcode,Record Value Invalid
+222222222,April,"If Item 49 (Work Participation Status) = 99 Or Blank, Item 30 (Family Affiliation - Adult) Must = 2-5","49, 30","Work Participation Status, Family Affiliation ",Case Consistency
+333333333,May,"If Item 66 (Family Affiliation Child) = 1 Then Item 74 (Education Level) Must = 01-16,98","66, 74","Family Affiliation Child, Education Level",Record Value Consistency
